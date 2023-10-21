@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: black;
+    margin: 115px 160px 50px 160px;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header div {
+    display: flex;
+    gap: 8px;
+}
+header input {
+    padding: 5px 16px;
+    line-height: 12px;
+    width: 398px;
+    border-radius: 5px;
+    background: #06181C;
+    color: #7C7C8A;
+    border: none;
+    font-weight: 400;
+}
+header button {
+    padding: 14px 32px;
+    font-size: 14px;   
+    border-radius: 5px;
+    background: #065E7C;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th {
+    background-color: #092D38;
+    color: #E1E1E6;
+    text-align: left;
+    padding: 16px 24px;
+}
+
+.imagem {
+    height: 56px;
+    width: 56px;
+    border-radius: 56px;
+}
+#app {
+    border: 1px solid #4A808C;
+    border-radius: 10px; /* Define o raio das bordas arredondadas */
+    overflow: hidden;
+    margin-top: 87px;
+}
+table tr:nth-child(even) {
+    background-color: #06181C;
+}
+table tr:nth-child(odd) {
+    background: rgba(6, 22, 27, 0.50);
+}
+table tr {
+    border-bottom: 1px solid #4A808C;
+}
+
+body td {
+    color: #E1E1E6;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin: 24px 40px;
+    gap: 16px;
+}
+tbody tr {
+    height: 104px;
+}
+.user a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+td button {
+    color: #F75A68;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+tbody td {
+    padding: 16px 24px;
+}
+.usuario {
+    padding-left: 70px;
+}
+.butao {
+    transition: background-color 0.3s;
+}
+.butao:hover {
+    background: hsl(195, 91%, 35%);
+}
+#remover {
+    transition: scale 0.3s;
+}
+#remover:hover {
+    scale: 1.1;
+}

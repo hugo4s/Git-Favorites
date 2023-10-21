@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="JS/main.js" type="module" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git hub Favourites</title>
+</head>
+<body>
+   <div id="programa">
+<header>
+    <img src="img/gitFav.svg" alt="gitFav">
+    <div>
+        <label for="input-search">Usuário do Github</label>
+        <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar">
+        <button class="butao">
+        <img src="img/star.svg" alt="star">
+        FAVORITAR
+    </button>
+    </div>
+</header>
+     <div id="app">
+        <table>
+            <thead>
+                <tr>
+                    <th class="usuario">Usuário</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img class= "imagem" src="https://Github.com/maykbrito.png" alt="img github">
+                        <a href="https://Github.com/maykbrito">
+                            <p>Mayk Brito</p>
+                            <span>/maykbrito</span>
+                        </a>
+                    </td>
+                    <td class="Repositories">123</td>
+                    <td class="Followers">1234</td>
+                    <td> <button id="remover">Remover</button></td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img class= "imagem" src="https://Github.com/diego3g.png" alt="img github">
+                        <a href="https://Github.com/diego3g">
+                            <p>Diego Fernandes</p>
+                            <span>/diego3g</span>
+                        </a>
+                    </td>
+                    <td class="Repositories">123</td>
+                    <td class="Followers">1234</td>
+                    <td> <button id="remover">Remover</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>~
+</div>
+</body>
+</html>
